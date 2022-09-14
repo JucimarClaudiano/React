@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+.item {
+  background-color: rgb(223, 236, 248);
+  border: 1px solid rgb(136, 145, 177);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: grid;
+}
+
+.compra {
+  background-color: rgb(100, 121, 240);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: center;
+}
