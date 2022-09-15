@@ -1,0 +1,39 @@
+Hook useState, alterar o valor renderizando o DOM
+
+Criar uma pasta componentes
+criar um arquivo .js
+ fazer todo o processo de exportacao
+ex:
+importar a função do react
+import {useState} from "react";
+
+Primeiro passo criar um  array contendo o nome da variavel, setNomedaVariavel = hook useState();
+ ex:
+
+criar um array com as informações, 
+const [number, setNumber] = useState();
+
+
+Listar
+
+Criar uma pasta componentes
+criar um arquivo .js
+ fazer todo o processo de exportacao
+ex:
+importar a função do react
+import {useState} from "react";
+
+primeiro passo criar uma lista contendo os valores desejáveis usar o o hook useState
+ex: const [list] = useState(["Marcio", "Paulo", "Gilson", "Rubens"])
+
+Dentro de return você vai criar uma nova função dentro das tag de lis do html 
+ex:
+<div>
+<ul>
+{list.map((item) =>(<li>{item}</li>))}
+</ul>
+</div>
+
+
+
+
